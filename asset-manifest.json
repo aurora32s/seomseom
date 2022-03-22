@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/seomseom/static/css/main.ae22a332.css",
-    "main.js": "/seomseom/static/js/main.e4c1bb71.js",
+    "main.css": "/seomseom/static/css/main.1ba6e53c.css",
+    "main.js": "/seomseom/static/js/main.a94af3eb.js",
     "static/js/787.bd4821f1.chunk.js": "/seomseom/static/js/787.bd4821f1.chunk.js",
     "static/media/JUA.ttf": "/seomseom/static/media/JUA.bf12d2d886260d73277b.ttf",
+    "static/media/HANNA_PRO.ttf": "/seomseom/static/media/HANNA_PRO.6d112976783f574c849d.ttf",
     "static/media/DO_HYEON.ttf": "/seomseom/static/media/DO_HYEON.d20f6c68004f7588ee16.ttf",
+    "static/media/HANNA_AIR.ttf": "/seomseom/static/media/HANNA_AIR.d0c38d74f11fd837be79.ttf",
     "static/media/masic.webp": "/seomseom/static/media/masic.434cdb0ac3d430bf451b.webp",
     "static/media/profile.jpeg": "/seomseom/static/media/profile.c71d63d2c0551abaaf8f.jpeg",
     "static/media/travel.jpeg": "/seomseom/static/media/travel.7a8c68ea4fc48631aa19.jpeg",
@@ -15,12 +17,12 @@
     "static/media/house.png": "/seomseom/static/media/house.5c97c300db8c26b007a2.png",
     "static/media/unique.png": "/seomseom/static/media/unique.fe8b0e599b2114e6cc67.png",
     "index.html": "/seomseom/index.html",
-    "main.ae22a332.css.map": "/seomseom/static/css/main.ae22a332.css.map",
-    "main.e4c1bb71.js.map": "/seomseom/static/js/main.e4c1bb71.js.map",
+    "main.1ba6e53c.css.map": "/seomseom/static/css/main.1ba6e53c.css.map",
+    "main.a94af3eb.js.map": "/seomseom/static/js/main.a94af3eb.js.map",
     "787.bd4821f1.chunk.js.map": "/seomseom/static/js/787.bd4821f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae22a332.css",
-    "static/js/main.e4c1bb71.js"
+    "static/css/main.1ba6e53c.css",
+    "static/js/main.a94af3eb.js"
   ]
 }
