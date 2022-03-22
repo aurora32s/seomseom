@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/seomseom/static/css/main.073c9b0a.css",
-    "main.js": "/seomseom/static/js/main.8a55e60f.js",
+    "main.css": "/seomseom/static/css/main.835c4699.css",
+    "main.js": "/seomseom/static/js/main.ab549594.js",
     "static/js/787.bd4821f1.chunk.js": "/seomseom/static/js/787.bd4821f1.chunk.js",
-    "static/media/logo.svg": "/seomseom/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/JUA.ttf": "/seomseom/static/media/JUA.bf12d2d886260d73277b.ttf",
+    "static/media/DO_HYEON.ttf": "/seomseom/static/media/DO_HYEON.d20f6c68004f7588ee16.ttf",
     "index.html": "/seomseom/index.html",
-    "main.073c9b0a.css.map": "/seomseom/static/css/main.073c9b0a.css.map",
-    "main.8a55e60f.js.map": "/seomseom/static/js/main.8a55e60f.js.map",
+    "main.835c4699.css.map": "/seomseom/static/css/main.835c4699.css.map",
+    "main.ab549594.js.map": "/seomseom/static/js/main.ab549594.js.map",
     "787.bd4821f1.chunk.js.map": "/seomseom/static/js/787.bd4821f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8a55e60f.js"
+    "static/css/main.835c4699.css",
+    "static/js/main.ab549594.js"
   ]
 }
