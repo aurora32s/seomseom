@@ -1,0 +1,79 @@
+.header {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  background-color: white;
+  font-family: "DO_HYEON";
+  font-size: 14px;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.navbar .logo {
+  color: var(--text);
+}
+
+.header .nav-menu a {
+  color: #ffffff;
+}
+
+.header .navbar img {
+  width: 45px;
+  height: auto;
+}
+
+.header .nav-menu {
+  display: flex;
+}
+
+.header .nav-item {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.header .nav-item a {
+  color: var(--text);
+}
+.header .nav-item.active a {
+  padding-bottom: 12px;
+  color: var(--secondary-dark);
+  border-bottom: 3px solid var(--secondary-dark);
+}
+
+.header .nav-item a:hover {
+  padding-bottom: 12px;
+  color: var(--secondary-dark);
+  border-bottom: 3px solid var(--secondary-dark);
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 655px) {
+  .header {
+    max-width: 100%;
+    box-shadow: 1px 0px 14px 5px #0000001a;
+  }
+  .header .navbar {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .header .nav-menu {
+    display: none;
+    transition: 1s ease-in;
+  }
+}

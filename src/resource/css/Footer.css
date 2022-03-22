@@ -1,0 +1,30 @@
+.footer {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 1px 0px 14px 5px #0000001a;
+}
+
+.anticon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.css-imwso6-MuiBottomNavigationAction-label.Mui-selected {
+  font-family: "DO_HYEON";
+}
+
+.css-16lloyr-MuiBottomNavigation-root {
+  height: 66px;
+}
+.css-1ee5err-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+  color: var(--secondary-dark) !important;
+}
+
+@media screen and (max-width: 655px) {
+  .footer {
+    display: block;
+  }
+}
