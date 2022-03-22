@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/seomseom/static/css/main.835c4699.css",
-    "main.js": "/seomseom/static/js/main.ab549594.js",
+    "main.css": "/seomseom/static/css/main.ae22a332.css",
+    "main.js": "/seomseom/static/js/main.e4c1bb71.js",
     "static/js/787.bd4821f1.chunk.js": "/seomseom/static/js/787.bd4821f1.chunk.js",
     "static/media/JUA.ttf": "/seomseom/static/media/JUA.bf12d2d886260d73277b.ttf",
     "static/media/DO_HYEON.ttf": "/seomseom/static/media/DO_HYEON.d20f6c68004f7588ee16.ttf",
+    "static/media/masic.webp": "/seomseom/static/media/masic.434cdb0ac3d430bf451b.webp",
+    "static/media/profile.jpeg": "/seomseom/static/media/profile.c71d63d2c0551abaaf8f.jpeg",
+    "static/media/travel.jpeg": "/seomseom/static/media/travel.7a8c68ea4fc48631aa19.jpeg",
+    "static/media/idiots.jpeg": "/seomseom/static/media/idiots.310e6445f1b09432c99d.jpeg",
+    "static/media/sherlock.jpeg": "/seomseom/static/media/sherlock.ae571df6c64ae52bc0cc.jpeg",
+    "static/media/gladiator.jpeg": "/seomseom/static/media/gladiator.2578681b575a51122882.jpeg",
+    "static/media/birthday.png": "/seomseom/static/media/birthday.395530285216bf8c1c56.png",
+    "static/media/house.png": "/seomseom/static/media/house.5c97c300db8c26b007a2.png",
+    "static/media/unique.png": "/seomseom/static/media/unique.fe8b0e599b2114e6cc67.png",
     "index.html": "/seomseom/index.html",
-    "main.835c4699.css.map": "/seomseom/static/css/main.835c4699.css.map",
-    "main.ab549594.js.map": "/seomseom/static/js/main.ab549594.js.map",
+    "main.ae22a332.css.map": "/seomseom/static/css/main.ae22a332.css.map",
+    "main.e4c1bb71.js.map": "/seomseom/static/js/main.e4c1bb71.js.map",
     "787.bd4821f1.chunk.js.map": "/seomseom/static/js/787.bd4821f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.835c4699.css",
-    "static/js/main.ab549594.js"
+    "static/css/main.ae22a332.css",
+    "static/js/main.e4c1bb71.js"
   ]
 }
