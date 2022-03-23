@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seomseom/static/css/main.894c3472.css",
-    "main.js": "/seomseom/static/js/main.63c905c6.js",
+    "main.css": "/seomseom/static/css/main.30ef1002.css",
+    "main.js": "/seomseom/static/js/main.aee781e0.js",
     "static/js/787.bd4821f1.chunk.js": "/seomseom/static/js/787.bd4821f1.chunk.js",
     "static/media/JUA.ttf": "/seomseom/static/media/JUA.bf12d2d886260d73277b.ttf",
     "static/media/HANNA_PRO.ttf": "/seomseom/static/media/HANNA_PRO.6d112976783f574c849d.ttf",
@@ -53,12 +53,12 @@
     "static/media/mysql.webp": "/seomseom/static/media/mysql.12e61a3a53998f694186.webp",
     "static/media/firebase.webp": "/seomseom/static/media/firebase.1dd8330ebb32c90c3516.webp",
     "index.html": "/seomseom/index.html",
-    "main.894c3472.css.map": "/seomseom/static/css/main.894c3472.css.map",
-    "main.63c905c6.js.map": "/seomseom/static/js/main.63c905c6.js.map",
+    "main.30ef1002.css.map": "/seomseom/static/css/main.30ef1002.css.map",
+    "main.aee781e0.js.map": "/seomseom/static/js/main.aee781e0.js.map",
     "787.bd4821f1.chunk.js.map": "/seomseom/static/js/787.bd4821f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.894c3472.css",
-    "static/js/main.63c905c6.js"
+    "static/css/main.30ef1002.css",
+    "static/js/main.aee781e0.js"
   ]
 }
