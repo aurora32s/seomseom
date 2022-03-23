@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seomseom/static/css/main.7f85237b.css",
-    "main.js": "/seomseom/static/js/main.43aa12d2.js",
+    "main.css": "/seomseom/static/css/main.9f46353b.css",
+    "main.js": "/seomseom/static/js/main.cde70d1f.js",
     "static/js/787.bd4821f1.chunk.js": "/seomseom/static/js/787.bd4821f1.chunk.js",
     "static/media/JUA.ttf": "/seomseom/static/media/JUA.bf12d2d886260d73277b.ttf",
     "static/media/HANNA_PRO.ttf": "/seomseom/static/media/HANNA_PRO.6d112976783f574c849d.ttf",
@@ -12,6 +12,7 @@
     "static/media/travel.jpeg": "/seomseom/static/media/travel.7a8c68ea4fc48631aa19.jpeg",
     "static/media/idiots.jpeg": "/seomseom/static/media/idiots.310e6445f1b09432c99d.jpeg",
     "static/media/sherlock.jpeg": "/seomseom/static/media/sherlock.ae571df6c64ae52bc0cc.jpeg",
+    "static/media/gaia.jpeg": "/seomseom/static/media/gaia.49481a40524bbf711722.jpeg",
     "static/media/android.png": "/seomseom/static/media/android.21bf8bee465408512084.png",
     "static/media/gladiator.jpeg": "/seomseom/static/media/gladiator.2578681b575a51122882.jpeg",
     "static/media/vue.png": "/seomseom/static/media/vue.1eafbd69d7822a229427.png",
@@ -20,12 +21,12 @@
     "static/media/react.webp": "/seomseom/static/media/react.2a0cac33f155e4a27216.webp",
     "static/media/unique.png": "/seomseom/static/media/unique.fe8b0e599b2114e6cc67.png",
     "index.html": "/seomseom/index.html",
-    "main.7f85237b.css.map": "/seomseom/static/css/main.7f85237b.css.map",
-    "main.43aa12d2.js.map": "/seomseom/static/js/main.43aa12d2.js.map",
+    "main.9f46353b.css.map": "/seomseom/static/css/main.9f46353b.css.map",
+    "main.cde70d1f.js.map": "/seomseom/static/js/main.cde70d1f.js.map",
     "787.bd4821f1.chunk.js.map": "/seomseom/static/js/787.bd4821f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f85237b.css",
-    "static/js/main.43aa12d2.js"
+    "static/css/main.9f46353b.css",
+    "static/js/main.cde70d1f.js"
   ]
 }
