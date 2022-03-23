@@ -1,0 +1,82 @@
+.project {
+  padding-top: 5%;
+  transition: 0.5s ease-in;
+}
+
+.project .title {
+  display: inline-block;
+  border-top: 3px solid var(--green);
+  border-bottom: 3px solid var(--green);
+  color: #5b5b5b;
+  padding: 5px 30px;
+  margin-top: 42px;
+  transition: 0.3s;
+  font-size: 23px;
+}
+.project .project_container {
+  grid-template-columns: 1fr 1fr;
+  margin: 19px;
+}
+.project .project_item {
+  width: 445px;
+  display: inline-block;
+  border: 2px solid #e7e7e7;
+  border-radius: 11px;
+}
+.project .project_item img {
+  width: 100%;
+  border-radius: 11px 11px 0 0;
+  margin-bottom: 11px;
+}
+.project .project_item .project_title {
+  font-size: 26px;
+  font-family: "JUA";
+}
+.project .project_item .chip_container {
+  margin: 14px 5px 10px 5px;
+  text-align: left;
+}
+.project .project_item .chip {
+  display: inline-block;
+  padding: 0px 15px;
+  height: 29px;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 7px;
+  font-family: "HANNA_AIR";
+  background-color: #011a33;
+  color: white;
+  font-weight: bold;
+  margin: 1px 2px;
+}
+.project .option {
+  height: 70px;
+}
+.project .button {
+  width: 90px;
+  height: 40px;
+  margin-top: 12px;
+  background-color: var(--green);
+  border: none;
+  border-radius: 7px;
+  font-family: "JUA";
+  font-size: 18px;
+  color: white;
+}
+
+@media screen and (max-width: 655px) {
+  .project {
+    padding-top: 10%;
+  }
+  .project .title {
+    padding: 5px 20px;
+    transition: 0.3s;
+    display: inline;
+  }
+  .project .project_container {
+    grid-template-columns: 1fr;
+  }
+  .project .project_item {
+    width: 80%;
+  }
+}

@@ -1,0 +1,21 @@
+.history {
+  transition: 0.5s ease-in;
+}
+
+.history .title {
+  display: inline-block;
+  border-top: 3px solid var(--yello);
+  border-bottom: 3px solid var(--yello);
+  padding: 5px 30px;
+  margin-top: 42px;
+  transition: 0.3s;
+  font-size: 23px;
+  color: var(--yello);
+}
+
+@media screen and (max-width: 655px) {
+  .history .title {
+    padding: 5px 20px;
+    transition: 0.3s;
+  }
+}

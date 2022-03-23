@@ -6,12 +6,23 @@
   font-family: "DO_HYEON";
   src: url("./resource/fonts/DO_HYEON.ttf");
 }
+@font-face {
+  font-family: "HANNA_PRO";
+  src: url("./resource/fonts/HANNA_PRO.ttf");
+}
+@font-face {
+  font-family: "HANNA_AIR";
+  src: url("./resource/fonts/HANNA_AIR.ttf");
+}
 
 :root {
   --primary-color: #5bb462;
   --primary-dark: #4f9c55;
   --secondary-color: #f19e9c;
   --secondary-dark: #ec5e57;
+  --yello: #ffcd4f;
+  --green: #a4ca3f;
+  --blue: #7198f8;
   --overlay: rgba(0, 0, 0, 0.473);
   --text: #202020;
 }
@@ -32,6 +43,7 @@ code {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 a {

@@ -18,9 +18,9 @@ function App() {
       <Layout className="layout">
         <Nav />
         <Routes>
-          <Route path="/" element={<About />}></Route>
+          <Route exact path="/" element={<About />}></Route>
           <Route path="/history" element={<History />}></Route>
-          <Route path="/book" element={<Book />}></Route>
+          <Route exact path="/book" element={<Book />}></Route>
           <Route path="/project" element={<Project />}></Route>
           <Route path="/skill" element={<Skill />}></Route>
         </Routes>

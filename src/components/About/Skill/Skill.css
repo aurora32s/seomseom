@@ -1,0 +1,83 @@
+.skill {
+  padding-top: 5%;
+  transition: 0.5s ease-in;
+}
+
+.skill .title {
+  display: inline-block;
+  border-top: 3px solid var(--yello);
+  border-bottom: 3px solid var(--yello);
+  color: #5b5b5b;
+  padding: 5px 30px;
+  margin-top: 42px;
+  transition: 0.3s;
+  font-size: 23px;
+}
+
+.skill .main_container {
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+.skill .main_container .main {
+  font-family: "JUA";
+  font-size: 28px;
+}
+
+.skill .main_container .skill_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill .skill_container .skill_item img {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+.skill .skill_container .skill_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DO_HYEON";
+}
+.skill .skill_container .skill_item svg {
+  padding: 0;
+}
+.skill .skill_container .divider {
+  border: 1px solid #e5e5e5;
+  height: 40%;
+  margin-right: 25px;
+}
+.skill .flex {
+  display: flex;
+  justify-content: center;
+}
+.skill .option {
+  height: 70px;
+}
+
+.skill .button {
+  width: 90px;
+  height: 40px;
+  margin-top: 12px;
+  background-color: var(--yello);
+  border: none;
+  border-radius: 7px;
+  font-family: "JUA";
+  font-size: 18px;
+}
+
+@media screen and (max-width: 655px) {
+  .skill {
+    padding-top: 10%;
+  }
+  .skill .title {
+    padding: 5px 20px;
+    transition: 0.3s;
+    display: inline;
+  }
+  .skill .main_container .skill_container {
+    display: block;
+  }
+}

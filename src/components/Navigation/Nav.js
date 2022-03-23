@@ -1,18 +1,37 @@
 import { Header } from "antd/lib/layout/layout";
-import React, { Component, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import React, { Component, useEffect, useState } from "react";
 import "../../resource/css/Nav.css";
 
 const Nav = () => {
+  const navigate = useNavigate();
   const [value, setValue] = useState(0);
   const handleValue = (index) => setValue(index);
 
+  let location;
+
+  useEffect(() => {
+    const { hash } = window.location;
+    location = hash.substring(1);
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  });
+
   const nav = [
-    { name: "About Me", link: "/seomseom" },
-    { name: "History", link: "/seomseom/history" },
-    { name: "Skill", link: "/seomseom/skill" },
-    { name: "Project", link: "/seomseom/project" },
-    { name: "Book", link: "/seomseom/book" },
+    { id: "home", name: "About Me", link: "/" },
+    // { id: "history", name: "History", link: "/seomseom/history" },
+    { id: "skill", name: "Skill", link: "/skill" },
+    { id: "pro", name: "Project", link: "/project" },
+    { id: "book", name: "Book&Lecture", link: "/book" },
   ];
+
+  const handleNav = (index, link) => {
+    setValue(index);
+    navigate(link);
+  };
 
   return (
     <div className="header">
@@ -23,11 +42,20 @@ const Nav = () => {
         <ul className="nav-menu">
           {nav.map((data, index) => (
             <li
-              className={index == value ? "nav-item active" : "nav-item"}
+              className={
+                location == data.link
+                  ? "nav-item active " + data.id
+                  : "nav-item"
+              }
               key={index}
               onClick={() => handleValue(index)}
             >
-              <a href={data.link}>{data.name}</a>
+              <a
+                className={data.id}
+                onClick={() => handleNav(index, data.link)}
+              >
+                {data.name}
+              </a>
             </li>
           ))}
         </ul>

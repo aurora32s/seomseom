@@ -49,14 +49,51 @@
 }
 .header .nav-item.active a {
   padding-bottom: 12px;
+}
+
+.header .nav-item.active.home a {
   color: var(--secondary-dark);
   border-bottom: 3px solid var(--secondary-dark);
+}
+.header .nav-item.active.history a {
+  color: var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
+}
+.header .nav-item.active.skill a {
+  color: var(--yello);
+  border-bottom: 3px solid var(--yello);
+}
+.header .nav-item.active.pro a {
+  color: var(--green);
+  border-bottom: 3px solid var(--green);
+}
+.header .nav-item.active.book a {
+  color: var(--blue);
+  border-bottom: 3px solid var(--blue);
 }
 
 .header .nav-item a:hover {
   padding-bottom: 12px;
+}
+.header .nav-item .home:hover {
   color: var(--secondary-dark);
   border-bottom: 3px solid var(--secondary-dark);
+}
+.header .nav-item .history:hover {
+  color: var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
+}
+.header .nav-item .skill:hover {
+  color: var(--yello);
+  border-bottom: 3px solid var(--yello);
+}
+.header .nav-item .pro:hover {
+  color: var(--green);
+  border-bottom: 3px solid var(--green);
+}
+.header .nav-item .book:hover {
+  color: var(--blue);
+  border-bottom: 3px solid var(--blue);
 }
 
 .hamburger {

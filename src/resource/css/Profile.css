@@ -1,0 +1,229 @@
+.profile {
+  padding: 1%;
+  transition: 0.5s ease-in;
+}
+
+.profile .container .profile_img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile .container .background {
+  height: 410px;
+  border-radius: 50%;
+  display: flex;
+  width: 410px;
+  background-color: var(--secondary-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .intro_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  width: 75%;
+  align-items: center;
+  font-family: "DO_HYEON";
+  box-shadow: 1px 0px 14px 5px #0000001a;
+  padding: 33px 43px;
+  border-radius: 15px;
+}
+
+.profile .intro_container .intro {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.profile .accent {
+  color: var(--secondary-dark);
+  font-size: 25px;
+}
+
+.profile .bar {
+  width: 5px;
+  height: 100%;
+  border: 3px solid var(--secondary-color);
+  border-radius: 2px;
+  margin: 0 40px;
+}
+.profile .bar.left {
+  border-right: none;
+}
+.profile .bar.right {
+  border-left: none;
+}
+
+.profile .profile_img {
+  height: 400px;
+  border-radius: 50%;
+  width: 400px;
+  transition: 0.5s ease-in;
+}
+
+.profile .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile .title {
+  display: inline-block;
+  border-top: 3px solid var(--secondary-dark);
+  border-bottom: 3px solid var(--secondary-dark);
+  color: var(--secondary-dark);
+  padding: 5px 30px;
+  margin-top: 42px;
+  transition: 0.3s;
+  font-size: 23px;
+}
+
+.profile .info_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+}
+.profile .info {
+  width: 70px;
+  font-family: "JUA";
+  margin: 0 65px;
+}
+.profile .icon {
+  width: 70px;
+  height: 70px;
+}
+.profile .info_container .info_title {
+  color: var(--secondary-dark);
+  font-size: 23px;
+}
+
+.profile .info_container .info_content {
+  color: var(--text);
+}
+
+.profile .graph {
+  width: 85%;
+}
+
+.profile .person {
+  width: 90%;
+  max-width: 725px;
+  display: inline-block;
+  margin-top: 38px;
+}
+
+.profile .person .person_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.profile .person .person_img {
+  margin: 0 20px;
+}
+
+.profile .person .person_img.circle {
+  width: 90px;
+  height: 90px;
+  border-bottom: 6px solid var(--secondary-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .person img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile .person .person_info {
+  display: inline-block;
+  border: 5px solid var(--secondary-dark);
+  border-radius: 17px;
+  padding: 32px;
+  text-align: left;
+  font-family: "DO_HYEON";
+  font-size: 20px;
+}
+
+.profile .person .person_intro {
+  font-size: 33px;
+  font-family: "HANNA_PRO";
+  color: #5b5b5b;
+  font-style: italic;
+}
+
+.profile .person .person_info .person_content {
+  font-size: 16px;
+}
+.profile .person .person_info .person_title {
+  color: var(--secondary-dark);
+}
+
+.divider {
+  border: 1px dotted var(--secondary-color);
+}
+
+@media screen and (max-width: 947px) {
+  .profile .bar {
+    display: none;
+  }
+  .profile .intro_container {
+    display: block;
+  }
+  .profile .intro_container .intro {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .profile {
+    padding: 5% 3%;
+    transition: 0.5s ease-in;
+  }
+  .profile .container .background {
+    height: 310px;
+    width: 310px;
+    transition: 0.5s ease-in;
+  }
+  .profile .profile_img {
+    height: 300px;
+    width: 300px;
+    transition: 0.5s ease-in;
+  }
+  .profile .profile_graph {
+    display: none;
+  }
+  .profile .title {
+    padding: 5px 20px;
+    transition: 0.3s;
+  }
+  .profile .info_container {
+    justify-content: space-around;
+  }
+  .profile .info {
+    margin: 0;
+  }
+  .profile .person {
+    /* display: flex; */
+    width: 100%;
+  }
+  .profile .person .person_container {
+    /* display: block; */
+    overflow: scroll;
+  }
+  .profile .person .person_img {
+    margin-bottom: 5px;
+  }
+  .profile .person .person_img {
+    margin: 0 2px;
+  }
+  /* .profile .person .person_info {
+    width: 100%;
+  } */
+}
