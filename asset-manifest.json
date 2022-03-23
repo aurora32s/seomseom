@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seomseom/static/css/main.f33dd4eb.css",
-    "main.js": "/seomseom/static/js/main.657b4ddb.js",
+    "main.css": "/seomseom/static/css/main.2ff61ace.css",
+    "main.js": "/seomseom/static/js/main.1254bd60.js",
     "static/js/787.bd4821f1.chunk.js": "/seomseom/static/js/787.bd4821f1.chunk.js",
     "static/media/JUA.ttf": "/seomseom/static/media/JUA.bf12d2d886260d73277b.ttf",
     "static/media/HANNA_PRO.ttf": "/seomseom/static/media/HANNA_PRO.6d112976783f574c849d.ttf",
@@ -15,6 +15,7 @@
     "static/media/sherlock.jpeg": "/seomseom/static/media/sherlock.ae571df6c64ae52bc0cc.jpeg",
     "static/media/gaia.jpeg": "/seomseom/static/media/gaia.49481a40524bbf711722.jpeg",
     "static/media/android.png": "/seomseom/static/media/android.21bf8bee465408512084.png",
+    "static/media/optimize.jpeg": "/seomseom/static/media/optimize.3683d8822f9d21e0e648.jpeg",
     "static/media/modern.jpeg": "/seomseom/static/media/modern.b7d1300616dd40568e50.jpeg",
     "static/media/react_book.jpeg": "/seomseom/static/media/react_book.db34f18a875aeade5123.jpeg",
     "static/media/android_lecture.png": "/seomseom/static/media/android_lecture.2e07b3a3997e4f1e0f36.png",
@@ -26,12 +27,12 @@
     "static/media/react.webp": "/seomseom/static/media/react.2a0cac33f155e4a27216.webp",
     "static/media/unique.png": "/seomseom/static/media/unique.fe8b0e599b2114e6cc67.png",
     "index.html": "/seomseom/index.html",
-    "main.f33dd4eb.css.map": "/seomseom/static/css/main.f33dd4eb.css.map",
-    "main.657b4ddb.js.map": "/seomseom/static/js/main.657b4ddb.js.map",
+    "main.2ff61ace.css.map": "/seomseom/static/css/main.2ff61ace.css.map",
+    "main.1254bd60.js.map": "/seomseom/static/js/main.1254bd60.js.map",
     "787.bd4821f1.chunk.js.map": "/seomseom/static/js/787.bd4821f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f33dd4eb.css",
-    "static/js/main.657b4ddb.js"
+    "static/css/main.2ff61ace.css",
+    "static/js/main.1254bd60.js"
   ]
 }
