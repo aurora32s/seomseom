@@ -1,5 +1,5 @@
 .skill {
-  padding: 90px 10% 2% 10%;
+  padding: 120px 10% 2% 10%;
 }
 .skill .tab-container {
   display: flex;
@@ -55,7 +55,7 @@
   transition: 0.3s;
 }
 .skill .skill-item.active .skill-content li {
-  margin-bottom: 16px;
+  margin-bottom: 7px;
 }
 
 .skill .skill-item .skill-btn {

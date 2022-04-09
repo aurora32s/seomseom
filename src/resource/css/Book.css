@@ -1,0 +1,101 @@
+.book-container {
+  padding: 120px 0;
+  font-family: "JUA";
+  display: flex;
+  justify-content: center;
+}
+
+.book-container .category-container {
+  width: 20%;
+}
+.book-container .category-container .category-item {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-family: "HANNA_AIR";
+  padding: 4px 0;
+  font-weight: bold;
+  border-radius: 0px 0 0 18px;
+}
+
+.book-container .category-container .category-item.active {
+  border: 7px solid var(--secondary-dark);
+}
+
+.book-container .book-list {
+  width: 60%;
+  /* float: right; */
+  border-left: 2px solid #e4e4e4;
+}
+
+.book-container .book-item {
+  display: flex;
+  padding: 0 0 27px 27px;
+}
+.book-container .book-info {
+  padding: 18px;
+  text-align: left;
+}
+.book-container .book-item .book-img {
+  width: 180px;
+  height: 240px;
+  box-shadow: 1px 0px 14px 5px #0000001a;
+}
+.book-container .book-item .book-info .book-title {
+  font-size: 21px;
+  font-family: "DO_HYEON";
+}
+.book-container .book-item .book-info .rate-container {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.book-container .book-item .book-info .rate {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+.book-container .book-item .book-info .no-rate {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.book-container .book-item .book-info .book-state {
+  font-size: 19px;
+  text-align: left;
+  padding: 10px 0;
+}
+.book-container .book-item .book-info .book-state .complete {
+  color: var(--secondary-dark);
+}
+.book-container .book-item .book-info .book-state .reading {
+  color: var(--blue);
+}
+
+@media screen and (max-width: 655px) {
+  .book-container {
+    padding: 90px 0;
+    flex-direction: column;
+  }
+  .book-container .category-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .book-container .category-container .category-item {
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 0 10px 0 10px;
+  }
+  .book-container .book-list {
+    width: 100%;
+    border-left: none;
+  }
+  .book-container .book-item {
+    padding: 27px 10px;
+    border-top: 2px dotted #e4e4e4;
+    display: block;
+  }
+}

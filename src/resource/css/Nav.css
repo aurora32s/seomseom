@@ -10,6 +10,7 @@
   background-color: white;
   font-family: "DO_HYEON";
   font-size: 14px;
+  box-shadow: 1px 0px 14px 5px #0000001a;
 }
 
 .header .navbar {

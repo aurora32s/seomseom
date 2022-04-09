@@ -1,0 +1,109 @@
+.project {
+  padding: 90px 0;
+  font-family: "JUA";
+}
+
+.project .indexing {
+  width: 70%;
+  display: inline-block;
+  text-align: right;
+  margin: 19px;
+  font-family: "DO_HYEON";
+  font-weight: bold;
+}
+
+.project .project-img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.project .project-info {
+  width: 70%;
+  display: inline-block;
+}
+
+.project .project-item {
+  display: flex;
+  padding: 20px 0;
+}
+.project .project-item.name {
+  font-size: 50px;
+  text-align: left;
+  font-family: "HANNA_PRO";
+  margin-left: 40px;
+  padding-top: 0;
+  color: var(--secondary-dark);
+}
+.project .project-item .project-title {
+  font-size: 17px;
+}
+.project .project-item .project-title {
+  width: 30%;
+}
+.project .project-item .project-content {
+  text-align: left;
+  white-space: pre-line;
+}
+.project .project-item.link .project-content {
+  text-align: center;
+  color: var(--blue);
+}
+.project .project-item.skills .project-content .chip {
+  display: inline-block;
+  padding: 0px 15px;
+  height: 29px;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 7px;
+  font-family: "HANNA_AIR";
+  background-color: #011a33;
+  color: white;
+  font-weight: bold;
+  margin: 1px 2px;
+}
+
+.project .project-item .project-content {
+  width: 70%;
+}
+
+.project .project-list {
+  /* margin-top: 90px; */
+  /* width: 70%; */
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* display: inline-block; */
+  margin: 90px 11% 0 11%;
+}
+.project .project-list .left-arrow {
+  position: absolute;
+  left: 0;
+}
+.project .project-list .right-arrow {
+  position: absolute;
+  right: 0;
+}
+.project .project-list .project_item {
+  width: 338px;
+  height: 100%;
+  box-shadow: 1px 0px 14px 5px #0000001a;
+}
+.project .project-list .project_item.selected {
+  box-shadow: 1px 0px 14px 5px #00000045;
+}
+.project .project-list .project-item .project_title {
+  font-size: 21px;
+}
+.project .project-list .project-item .chip {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 655px) {
+  .project .project-img {
+    width: 90%;
+  }
+  .project .project-info {
+    width: 90%;
+  }
+}
