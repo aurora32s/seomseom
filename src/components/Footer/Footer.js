@@ -1,8 +1,11 @@
-import React, { Component, useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+/** @format */
+
+import React, {Component, useEffect, useState} from 'react';
+import {useNavigate} from 'react-router-dom';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import profile from '../../resource/images/profile.jpg';
+import notion from '../../resource/images/notion.png';
 import github from '../../resource/images/github.png';
 import programmers from '../../resource/images/programmers.png';
 import {
@@ -21,7 +24,7 @@ const Footer = () => {
   let location;
 
   useEffect(() => {
-    const { hash } = window.location;
+    const {hash} = window.location;
     location = hash.substring(1);
     setValue(nav.findIndex((x) => x.link == location));
     window.scroll({
@@ -32,9 +35,13 @@ const Footer = () => {
   });
 
   const nav = [
-    { label: 'About Me', icon: <UserOutlined />, link: '/' },
+    {label: 'About Me', icon: <UserOutlined />, link: '/'},
     // { label: "History", icon: <BookOutlined /> },
-    { label: 'Skill', icon: <HistoryOutlined />, link: '/skill' },
+    {
+      label: 'Skill',
+      icon: <HistoryOutlined />,
+      link: '/skill',
+    },
     {
       label: 'Project',
       icon: <HeatMapOutlined />,
@@ -56,11 +63,20 @@ const Footer = () => {
 
   const data = [
     {
-      title: '기술 블로그',
+      title: '기술 블로그(Tistory)',
       img: profile,
       color: '#ec5e57',
       url: 'https://rien-atelier.tistory.com/',
-      content: '알게 된 내용을 공유하고 복습하기 위한 기술 블로그입니다. ',
+      content:
+        '알게 된 내용을 공유하고 복습하기 위한 기술 블로그입니다. ',
+    },
+    {
+      title: '비공개 기술 블로그(Notion)',
+      img: notion,
+      color: '#7198f8',
+      url: 'https://seom-seom.notion.site/d724efa0caa246b9a1d81af43adda779',
+      content:
+        '저작권의 문제로 외부에 공유하지 않고, 제가 공부하기 위해 정리해둔 기술 블로그입니다.☺️👍',
     },
     {
       title: 'Github',
@@ -75,7 +91,8 @@ const Footer = () => {
       img: programmers,
       color: '#a4ca3f',
       url: 'https://programmers.co.kr/pr/aurora32s_9924',
-      content: '프로그래머스에 정리해둔 이력서 입니다. 참고해주세요.☺️',
+      content:
+        '프로그래머스에 정리해둔 이력서 입니다. 참고해주세요.☺️',
     },
   ];
   return (
@@ -93,14 +110,18 @@ const Footer = () => {
                 alt={contact.title}
               />
               <div className='contact_info'>
-                <strong className='contact_title'>{contact.title}</strong>
+                <strong className='contact_title'>
+                  {contact.title}
+                </strong>
                 <br />
-                <span className='contact_content'>{contact.content}</span>
+                <span className='contact_content'>
+                  {contact.content}
+                </span>
               </div>
               <a
                 className='contact_link'
                 href={contact.url}
-                style={{ backgroundColor: contact.color }}
+                style={{backgroundColor: contact.color}}
                 target='_blank'>
                 이동하기
               </a>

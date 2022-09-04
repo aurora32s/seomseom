@@ -14,14 +14,20 @@
   font-size: 23px;
 }
 .project .project_container {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 19px;
+  display: inline-grid;
+  column-gap: 10px;
+  padding: 0px 72px;
 }
 .project .project_item {
-  width: 445px;
-  display: inline-block;
+  width: 385px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
   border: 2px solid #e7e7e7;
   border-radius: 11px;
+  margin-top: 10px;
 }
 .project .project_item img {
   width: 100%;
@@ -29,7 +35,7 @@
   margin-bottom: 11px;
 }
 .project .project_item .project_title {
-  font-size: 26px;
+  font-size: 20px;
   font-family: "JUA";
 }
 .project .project_item .chip_container {
